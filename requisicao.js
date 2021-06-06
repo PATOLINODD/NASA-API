@@ -16,6 +16,6 @@
 	function mostrarPedido(data){
 		document.querySelector('#titulo').innerHTML = data.title;
 		document.querySelector('#data').innerHTML = "DATA: "+data.date;
-		document.querySelector('#img').innerHTML = `<img src='${data.hdurl}' width='50%'>`;
+		document.querySelector('#img').innerHTML = `<img src='${data.url}' width='50%'>`;
 		document.querySelector('#explicacao').innerHTML = data.explanation;
 	}
