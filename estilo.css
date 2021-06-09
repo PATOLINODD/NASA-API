@@ -71,7 +71,7 @@
 		padding: 0;
 		resize: none;
 	}
-	@media(max-width: 330px){
+	@media all(max-width: 330px){
                body{
                   width: 320px;
                   height: 640px;
