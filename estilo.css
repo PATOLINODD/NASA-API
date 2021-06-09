@@ -77,4 +77,7 @@
                   height: 640px;
                   background-color: blue;
                }
+               nav {
+                  display: none;
+               }
         }
