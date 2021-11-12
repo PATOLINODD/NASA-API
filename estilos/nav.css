@@ -28,6 +28,7 @@ h1 {
   display: grid;
   grid-template-columns: 5fr 1fr;
   grid-gap: 9px;
+  align-items: center;
   background: white;
   height: 30px;
   width: 345px;
@@ -41,5 +42,6 @@ button {
   margin: auto 6px;
 }
 input {
+  width: 100%;
   appearance: none;
 }
