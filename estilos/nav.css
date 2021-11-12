@@ -12,7 +12,7 @@ nav {
   justify-content: center;
   background: red;
   height: 1.7em;
-  width: 15em;
+  width: 200px;
   border-radius: 20px;
   color: white;
   margin: auto;
@@ -21,7 +21,7 @@ nav > div {
   margin: auto;
 }
 h1 {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .busca-img {
@@ -29,8 +29,8 @@ h1 {
   grid-template-columns: 5fr 1fr;
   grid-gap: 9px;
   background: white;
-  height: 2em;
-  width: 25em;
+  height: 30px;
+  width: 345px;
   margin: auto;
   border-radius: 10px;
 }
