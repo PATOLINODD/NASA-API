@@ -17,6 +17,9 @@
   button {
     height: 3em;
   }
+  input{
+    width: 100%;
+  }
   .busca-img {
     width: 80%;
     height: 60px;
