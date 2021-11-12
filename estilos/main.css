@@ -1,40 +1,39 @@
-main{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-itens: center;
-	color: white;
-	margin: auto;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
 }
-.info{
-	display: flex;
-	align-itens: center;
-	justify-content: center;
-	margin: auto;
-	
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .info > h3 {
-	padding: 20px 120px 20px 0;
-	margin: auto;
+  padding: 20px 120px 20px 0;
+  margin: auto;
 }
 .info > p {
-	padding: 20px 10px 20px 0;
-	margin: auto;
+  padding: 20px 10px 20px 0;
+  margin: auto;
 }
 
 #img {
-	display: flex;
-	justify-content: center;
-	align-itens: center;
-	grid-area: img;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: img;
 }
 
-textarea{
-	display: none;
-	align-self: center;
-	resize: none;
-	width: 50%;
-	height: 100px;
-	grid-area: sobre-img;
+textarea {
+  display: none;
+  align-self: center;
+  resize: none;
+  width: 50%;
+  height: 100px;
+  grid-area: sobre-img;
 }
