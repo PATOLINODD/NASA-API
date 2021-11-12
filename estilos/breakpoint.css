@@ -1,0 +1,16 @@
+
+
+@media (max-width: 600px), (orientation: portrait){
+	body{
+		background: url('../imagens/estrelas.jpg');
+		height: 300em;
+		overflow: hidden;
+	}
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+	.busca-img{
+		width: 80%;
+	}
+}

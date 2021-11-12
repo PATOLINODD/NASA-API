@@ -2,31 +2,33 @@
 		<html>
 			<head>
 				<meta charset='utf-8'/>
-				<link rel='stylesheet' href='estilo.css'>
+				<link rel='stylesheet' href='./estilos/body.css'>
+				<link rel='stylesheet' href='./estilos/nav.css'>
+				<link rel='stylesheet' href='./estilos/main.css'>
+				<link rel='stylesheet' href='./estilos/footer.css'>
+				<link rel='stylesheet' href='./estilos/breakpoint.css'>
 				
 				<title> NASA IMAGENS </title> 
 			</head>
 			<body>
 				<nav>
-					<h1> NASA IMAGENS </h1>
-					<div>
+					<div class='logoNome'><h1> NASA IMAGENS </h1></div>
+					<div class='busca-img'>
 						<input type='date'>
 						<button id='pesquisar'>buscar</button>
 					</div>
 				</nav>
-				<header>
-					<div>
+				<main>
+					<div class='info'>
 						<h3 id='titulo'></h3>
-						<p id='data'>
+						<p id='data'></p>
 					</div>
-					<div id='conteudo'>
-						<div id='img'>
-						</div>
+						<div id='img'></div>
 						<textarea id='explicacao' disabled></textarea>
-					</div>
-				</header>
+				</main>
 				<footer>
 					<hr/>
+					<p>todos os direitos reservados</p>
 				</footer>
 				<script src='requisicao.js'></script>
 			</body>

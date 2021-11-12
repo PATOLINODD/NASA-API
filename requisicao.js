@@ -3,14 +3,12 @@
 
 	botaoPesquisa.onclick = () => {
 		document.querySelector('#explicacao').style.display = 'block';
-		console.log('botao pressionado');
 		enviarPedido();
 	}
 
 	async function enviarPedido(){
 		let resposta = await fetch(`https://api.nasa.gov/planetary/apod?api_key=xKNuJ9l2rSf2SOlvZposqh4J9TRhKsTVRSAgQkOy&date=${pesquisa.value}`);
 		let data = await resposta.json();
-		console.log(data);
 		mostrarPedido(data);
 	}
 	function mostrarPedido(data){
