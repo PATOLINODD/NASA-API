@@ -11,8 +11,8 @@ nav {
   display: flex;
   justify-content: center;
   background: red;
-  height: 27px;
-  width: 200px;
+  height: 1.7em;
+  width: 15em;
   border-radius: 20px;
   color: white;
   margin: auto;
@@ -29,8 +29,8 @@ h1 {
   grid-template-columns: 5fr 1fr;
   grid-gap: 9px;
   background: white;
-  height: 27px;
-  width: 333px;
+  height: 2em;
+  width: 25em;
   margin: auto;
   border-radius: 10px;
 }
